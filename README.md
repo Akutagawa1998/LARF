@@ -5,7 +5,7 @@
 ### [Paper](our paper link) | [Project Page](our project page) | [LazyBench](our LazyBench)
 
 
-![Teaser](Figure_1.png)
+![Teaser](figure_1.png)
 
 ## Contents:
 1. [Getting Started](#start)
