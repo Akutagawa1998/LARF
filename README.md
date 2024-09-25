@@ -1,6 +1,6 @@
 # Difficult Task Yes but Simple Task No: Unveiling the Laziness in Multimodal LLMs - (EMNLP 2024 Findings)
 
-[Sihang (Nagi) Zhao](https://akutagawa1998.github.io/)
+[Sihang (Nagi) Zhao](https://akutagawa1998.github.io/), [Youliang Yuan](https://youliangyuan.github.io/), [Xiaoying Tang](https://sse.cuhk.edu.cn/en/faculty/tangxiaoying), [Pinjia He](https://pinjiahe.github.io/)
                
 ### [Paper](our paper link) | [Project Page](our project page) | [LazyBench](our LazyBench)
 
@@ -19,7 +19,7 @@
 
 
 ### LazyBench
-OurLazyBench is available [here](our hf page). It is specially crafted to measure **multimodal LLM's** laziness via VQA. 
+OurLazyBench is available [here](our hf page) to measure **multimodal LLM's** laziness via VQA. 
 The original version of LazyBench is separated into a folder containing 101 images. an annotation CSV file with questions and correct answers. The format of the data is:
 
 
@@ -29,7 +29,7 @@ The original version of LazyBench is separated into a folder containing 101 imag
 │   ├── 2.jpg
 │   ├── 3.jpg
 │   ├── ...
-│   └── 101.jpg (the original image amout in the paper is 101)
+│   └── 101.jpg (the original image amount in the paper is 101)
 │   ├── ...
 │   └── 210.jpg
 └── lazy_labels.csv
