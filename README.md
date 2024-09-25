@@ -20,8 +20,8 @@
 
 ### LazyBench
 OurLazyBench is available [here](our hf page) to measure **multimodal LLM's** laziness via VQA. 
-The original version of LazyBench is separated into a folder containing 101 images. an annotation CSV file with questions and correct answers. The format of the data is:
-
+The original version of LazyBench is separated into a folder containing 101 images, and an annotation CSV file with questions and correct answers. In our paper, the dataset we use contained 101 images.
+The format of the data is:
 
 ```
 ├── lazy_images
@@ -29,14 +29,19 @@ The original version of LazyBench is separated into a folder containing 101 imag
 │   ├── 2.jpg
 │   ├── 3.jpg
 │   ├── ...
-│   └── 101.jpg (the original image amount in the paper is 101)
+│   └── 101.jpg
+└── lazy_labels.csv
+```
+We are continually expanding this LazyBench. The latest version of lazy_labels can be found in the latest folder:
+```
+├── lazy_images_v1
+│   ├── 1.jpg
+│   ├── 2.jpg
+│   ├── 3.jpg
 │   ├── ...
 │   └── 210.jpg
-└── lazy_labels.csv
-└── lazy_labels_new.csv
+└── lazy_labels_v1.csv
 ```
-We are continually expanding this LazyBench. The latest version of lazy_labels can be found in lazy_labels_new.csv.
-
 
 ## License <a name="license"></a>
 
